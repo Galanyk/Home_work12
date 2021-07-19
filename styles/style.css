@@ -89,7 +89,7 @@ body {
 
 .container-buttom {
     display: flex;
-    align-items:center;
+   align-items: center;
 }
 
 .btn-logo {
@@ -133,11 +133,14 @@ body {
     font-weight: 600;
     font-size: 65px;
     line-height: 70px;
+    margin-bottom: 51px;
 }
 
 .text-local {
     font-size: 25px;
     line-height: 35px;
+    margin-bottom: 50px;
+    width: 471px;
 }
 
 .button-local {
@@ -160,3 +163,52 @@ body {
     line-height: 25px;
 }
 
+.container-local {
+    padding-top: 128px;
+    margin-bottom: 171px;
+}
+
+.container-local-pic {
+    padding-top: 150px;
+    margin-bottom: 181px;
+}
+
+.container-buttom-local {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.section-compani {
+    background-color: #FF9C7D;
+}
+
+.container-compani {
+    width: 1243px;
+    background-color: #FF9C7D;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 107px;
+    
+}
+
+.title-compani {
+    font-size: 50px;
+    line-height: 60px;  
+    text-align: center;
+    margin-bottom: 70px;
+    width: 720px;
+}
+
+.list-compani {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-compani {
+    margin-bottom: 103px;
+}
+
+.link-compani {
+    text-decoration: none;
+    display: flex;
+}
