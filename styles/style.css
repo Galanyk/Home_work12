@@ -220,6 +220,7 @@ body {
     width: 1290px;
     background-color: #FFFFFF;
     display: flex;
+
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -273,9 +274,20 @@ body {
     width: auto;
     /* padding-top: 161px; */
     
+    
 }
 
 .text-quality {
     width: 520px;
-    
+    margin-bottom: 35px;
+}
+
+.title-work {
+width: 348px;
+margin-bottom: 33px;
+}
+
+.text-work {
+    width: 520px;
+    margin-bottom: 27px;
 }
