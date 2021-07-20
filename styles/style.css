@@ -194,9 +194,12 @@ body {
 .title-compani {
     font-size: 50px;
     line-height: 60px;  
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 70px;
+    font-weight: 600;
     width: 720px;
+   
 }
 
 .list-compani {
@@ -211,4 +214,68 @@ body {
 .link-compani {
     text-decoration: none;
     display: flex;
+}
+
+.section-process {
+    width: 1290px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+}
+
+.text-process {
+    font-size: 20px;
+    line-height: 30px;
+    width: 491px;
+    margin-bottom: 30px;
+}
+
+.link-process {
+    font-family:'Graphik LCG', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.title-process {
+    font-size: 50px;
+    line-height: 60px;
+    font-family:'Graphik LCG', sans-serif;
+    font-weight: 600;
+    width: 493px;
+    margin-bottom: 30px;
+}
+
+.container-imag-process {
+    padding-top: 90px;
+}
+
+.container-process {
+    padding-top: 241px;
+}
+
+.title-market {
+    width: 379px;
+    padding-top: 121px;
+}
+
+.text-market {
+    width: 450px;
+    margin-bottom: 36px;
+}
+
+.title-quality {
+    width: auto;
+    /* padding-top: 161px; */
+    
+}
+
+.text-quality {
+    width: 520px;
+    
 }
