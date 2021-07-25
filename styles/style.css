@@ -110,6 +110,11 @@ body {
     font-weight: 600;
 }
 
+.btn-logo:hover {
+    background-color: black;
+    color: white;
+}
+
 .button {
     color: #FFFFFF;
     line-height: 45px;
@@ -119,14 +124,19 @@ body {
     margin-right: 0px;
 }
 
+.button:hover {
+    background-color: #FFFFFF;
+    color: #FF6336;
+}
+
 .section-local {
     width: 1290px;
     background-color: #FFFFFF;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 128px;
-    padding-bottom: 171px;
+    padding-top: 131px;
+    padding-bottom: 172px;
 } 
 
 .list-button {
@@ -136,7 +146,7 @@ body {
 .title-local {
     font-size: 65px;
     line-height: 70px;
-    margin-bottom: 51px;
+    margin-bottom: 52px;
     font-weight: 600;
     width: 552px;
 }
@@ -144,7 +154,7 @@ body {
 .text-local {
     font-size: 25px;
     line-height: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 52px;
     width: 471px;
 }
 
@@ -164,7 +174,7 @@ body {
 } 
 
 .container-buttom-local {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
 .text-try {
@@ -179,7 +189,6 @@ body {
 
 .img-local-pic {
     width: 738px;
-    background-size: contain;
 }
 
 .section-compani {
@@ -197,15 +206,11 @@ body {
 .title-compani {  
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 70px;
+    margin-bottom: 69px;
     width: 720px;
     font-size: 50px;
     line-height: 60px;
     font-weight: 600;
-}
-
-.item-compani {
-    display: flex;
 } 
 
 .link-compani {
@@ -232,14 +237,14 @@ body {
 }
 
 .container-process {
-    padding-top: 151px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width: 520px;
 }
 
 .text-process {
     font-size: 20px;
     line-height: 30px;
-    width: 540;
     margin-bottom: 30px;
 }
 
@@ -254,40 +259,14 @@ body {
 }
 
 .title-process {
-    width: 493px;
     margin-bottom: 30px;
     font-size: 50px;
     line-height: 60px;
     font-weight: 600;
 }
 
-.title-market {
-    width: 379px;
-}
-
-.text-market {
-    margin-bottom: 36px;
-}
-
-.title-quality {
-    margin-bottom: 30px;  
-}
-
-.text-quality {
-    margin-bottom: 35px;
-}
-
-.title-work {
-    width: 348px;
-    margin-bottom: 33px;
-}
-
 .img-process {
     display: block;
-}
-
-.text-work {
-    margin-bottom: 27px;
 }
 
 .link-text {
@@ -300,7 +279,7 @@ body {
 .section-localise {
     background-color: #FFF8E4;
     padding-top: 120px;
-    padding-bottom: 145px;
+    padding-bottom: 146px;
 }
 
 .container-localise {
@@ -309,11 +288,14 @@ body {
 
 .list-localise {
     flex-wrap: wrap;
+    display: flex;
 }
 
 .item-localise {
     width: 330px;
-    margin-bottom: 74px;
+    margin-bottom: 75px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .item-localise:nth-of-type(n+4) {
@@ -328,7 +310,7 @@ body {
 }
 
 .subject-localise {
-    margin-bottom: 78px;
+    margin-bottom: 79px;
     font-size: 50px;
     line-height: 60px;
     font-weight: 600;
@@ -359,17 +341,21 @@ body {
 
 .list-team {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
 }
 
 .item-team {
     width: 409px;
+    margin-right: 31px;
+}
+
+.item-team:last-child {
+    margin-right: 0px;
 }
 
 .image-team {
     display: block;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
 }
 
 .subject-team {
@@ -405,9 +391,14 @@ body {
     padding-bottom: 105px;
 }
 
+.container-chief {
+    display: flex;
+}
+
 .cont-chief {
     padding-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 58px;
+    margin-right: 85px;
 }
 
 .text-chief {
@@ -429,12 +420,14 @@ body {
     line-height: 25px;
 }
 
-/* -- section-manage--*/
+.link-imgs-chief {
+    display: block;
+}
 
 .section-manage {
     background-color: #DABC98;
-    padding-top: 90px;
-    padding-bottom: 88px;
+    padding-top: 80px;
+    padding-bottom: 85px;
 }
 
 .container-manage {
@@ -444,9 +437,10 @@ body {
 .title-manage {
     font-size: 35px;
     line-height: 50px;
-    width: 461px;
     margin-right: 124px;
     font-weight: 600;
+    padding-top: 37px;
+    padding-bottom: 31px;
 }
 
 .text-rated {
@@ -458,6 +452,12 @@ body {
 .cont-manage {
     border-right-width: 1px;
     border-style: solid;
+    display: flex;
+}
+
+.cont-rated {
+    padding-top: 20px;
+    padding-bottom: 19px;
 }
 
 .img-rated {
@@ -481,11 +481,11 @@ body {
     margin-bottom: 15px;
 }
 
-/* -- section-icon--*/
 .section-icon {
     padding-top: 165px;
     padding-bottom: 162px;
 }
+
 .container-icon {
     text-align: center;
     flex-direction:column;
@@ -515,6 +515,11 @@ body {
     font-weight: 600;
 }
 
+.link-icon-btm:hover {
+    background-color: violet;
+    color: red;
+}
+
 .imag-icon {
     display: inline-block;
     vertical-align: top;
@@ -528,7 +533,6 @@ body {
 }
 
 .container-easy {
-    /* display: flex;  */
     text-align: center;
 }
 
@@ -554,7 +558,7 @@ body {
 .section-footer {
     background-color: #EEEEEE;
     padding-top: 91px;
-    padding-bottom: 94px;
+    padding-bottom: 93px;
     color: #000000;
     border-style: solid;
     border-bottom-width: 1px;
