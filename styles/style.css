@@ -48,7 +48,8 @@ body {
 }
 
 .header {
-    padding: 24px 0px 25px 0px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     background-color: #FFFFFF;
 }
 
@@ -119,7 +120,7 @@ body {
 }
 
 .section-local {
-    width: 1311px;
+    width: 1290px;
     background-color: #FFFFFF;
     display: flex;
     margin-left: auto;
@@ -174,6 +175,11 @@ body {
 .container-local-pic {
     padding-bottom: 10px;
     padding-top: 22px;
+}
+
+.img-local-pic {
+    width: 738px;
+    background-size: contain;
 }
 
 .section-compani {
@@ -499,8 +505,6 @@ body {
 }
 
 .link-icon-btm {
-    display: inline-block;
-    vertical-align: top;
     text-decoration: none;
     font-size: 16px;
     color: #EFEFEF;
@@ -540,6 +544,8 @@ body {
 }
 
 .link-easy-btm {
+    display: inline-block;
+    vertical-align: top;
     background-color: #000000;
     font-size: 17px;
     padding: 0px 40px 0px 40px;
@@ -547,8 +553,8 @@ body {
 
 .section-footer {
     background-color: #EEEEEE;
-    padding-top: 92px;
-    padding-bottom: 95px;
+    padding-top: 91px;
+    padding-bottom: 94px;
     color: #000000;
     border-style: solid;
     border-bottom-width: 1px;
@@ -566,14 +572,8 @@ body {
 }
 
 .image-case {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     margin-bottom: 31px;
-}
-
-.pic-case {
-    display: inline-block;
-    vertical-align: top;
 }
 
 .link-case-img {
@@ -603,27 +603,27 @@ body {
     line-height: 15px;
     text-decoration: none;
     color: #000000;
-    white-space: nowrap;
 }
 
 .item-footer {
     margin-bottom: 15px;
+    display: flex;
 }
 
-.item-footer:last-child {
-    margin-bottom: 0px;
+.cont-footer-all {
+    width: 850px;
+    display: flex;
+    padding-top: 5px;
 }
 
 .cont-footer {
-   margin-right: 109px;
+    width: 20%;
+    margin-right: 6%;
 }
 
 .cont-footer:last-child {
     margin-right: 0px;
 } 
-.item-footer {
-    display: flex;
-}
 
 .section-footer-last {
     background-color: #EEEEEE;
@@ -637,8 +637,6 @@ body {
 }
 
 .img-footer-last {
-/* display: inline-block; */
-    /* vertical-align: top; */
     line-height: 21px;
 }
 
@@ -651,7 +649,5 @@ body {
 }
 
 .link-footer-last {
-    display: inline-block;
-    vertical-align: top;
     margin-right: 14px;
 }
