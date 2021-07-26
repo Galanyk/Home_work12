@@ -614,6 +614,10 @@ body {
     display: flex;
 }
 
+.item-footer:last-child {
+    margin-bottom: 0px;
+}
+
 .cont-footer-all {
     width: 850px;
     display: flex;
@@ -626,7 +630,7 @@ body {
 }
 
 .cont-footer:last-child {
-    margin-right: 0px;
+    margin-right: 0%;
 } 
 
 .section-footer-last {
