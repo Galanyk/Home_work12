@@ -140,7 +140,7 @@ body {
 
 .section-local {
     background-color: #FFFFFF;
-    padding-top: 131px;
+    padding-top: 128px;
     padding-bottom: 172px;
 } 
 
@@ -151,7 +151,7 @@ body {
 .title-local {
     font-size: 65px;
     line-height: 70px;
-    margin-bottom: 52px;
+    margin-bottom: 51px;
     font-weight: 600;
     width: 552px;
 }
@@ -159,7 +159,7 @@ body {
 .text-local {
     font-size: 25px;
     line-height: 35px;
-    margin-bottom: 52px;
+    margin-bottom: 50px;
     width: 471px;
 }
 
@@ -295,7 +295,7 @@ body {
 .section-localise {
     background-color: #FFF8E4;
     padding-top: 120px;
-    padding-bottom: 71px;
+    padding-bottom: 70px;
 }
 
 .container-localise {
@@ -310,20 +310,20 @@ body {
 
 .item-localise {
     width: 330px;
-    margin-bottom: 75px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-bottom: 74px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .title-localise {
     font-size: 25px;
     line-height: 35px;
-    margin-bottom: 26px;
+    margin-bottom: 25px;
     font-weight: 600;
 }
 
 .subject-localise {
-    margin-bottom: 79px;
+    margin-bottom: 77px;
     font-size: 50px;
     line-height: 60px;
     font-weight: 600;
@@ -349,7 +349,7 @@ body {
 .section-team {
     background-color: #FFFFFF;
     padding-top: 154px; 
-    padding-bottom: 187px;
+    padding-bottom: 186px;
 }
 
 .list-team {
@@ -404,13 +404,13 @@ body {
     padding-bottom: 105px;
 }
 
-.container-chief {
+.container-chief.container {
     display: flex;
 }
 
 .cont-chief {
     padding-top: 10px;
-    padding-bottom: 58px;
+    padding-bottom: 40px;
     margin-right: 85px;
 }
 
@@ -433,14 +433,14 @@ body {
     line-height: 25px;
 }
 
-.link-imgs-chief {
-    display: block;
+.cont-chief-img {
+    display: flex;
 }
 
 .section-manage {
     background-color: #DABC98;
-    padding-top: 80px;
-    padding-bottom: 85px;
+    padding-top: 86px;
+    padding-bottom: 90px;
 }
 
 .container-manage {
@@ -452,8 +452,8 @@ body {
     line-height: 50px;
     margin-right: 124px;
     font-weight: 600;
-    padding-top: 37px;
-    padding-bottom: 31px;
+    padding-top: 36px;
+    padding-bottom: 20px;
 }
 
 .text-rated {
@@ -480,6 +480,7 @@ body {
 
 .img-manage {
     margin-right: 67px;
+    display: block;
 }
 
 .item-rated {
@@ -515,7 +516,7 @@ body {
 .title-icon {
     font-size: 65px;
     line-height: 75px;
-    width: 791px;
+    max-width: 791px;
     font-weight: 600;
 }
 
@@ -552,7 +553,7 @@ body {
 }
 
 .title-easy {
-    width: 784px;
+    max-width: 784px;
     margin-bottom: 29px;
     margin-left: auto;
     margin-right: auto;
@@ -683,8 +684,6 @@ body {
     margin-right: 14px;
 }
 
-
-
 @media (max-width:1289px) {
 
     .container-header.container {
@@ -713,7 +712,7 @@ body {
 
     .cont-local.container {
         flex-direction: column;
-        width: auto;
+        width: 100%;
         align-items: center;
     }
     .container-local-pic {
@@ -729,19 +728,22 @@ body {
         text-align: center;
     }
 
-
     .section-process {
         padding-top: 50px;
         padding-bottom: 50px;
     }
 
+    .cont-class.container {
+        width: 100%;
+    }
+
     .container-class {
         flex-direction: column;
-        width: 100%;
         align-items: center;
         margin-bottom: 50px;
         padding-top: 10px;
     }
+
     .container-imag-process {
         order: 1;
         display: flex;
@@ -751,6 +753,7 @@ body {
         margin-bottom: 20px;
         padding-top: 20px;
     }
+
     .cont-right {
         margin-right: 0px;
     }
@@ -769,10 +772,6 @@ body {
         justify-content: center;
     } 
 
-    .item-localise {
-        width: 33%;
-    }
-
     .item-compani {
         margin-bottom: 30px;
         margin-left: 20px;
@@ -788,6 +787,10 @@ body {
         width: 100%;
     }
 
+    .list-localise {
+        justify-content: space-around;
+    }
+
     .section-team {
         padding-top: 104px;
         padding-bottom: 137px;
@@ -800,6 +803,7 @@ body {
     .section-chief {
         padding-bottom: 35px;
     }
+
     .container-chief.container {
         width: 100%;
         flex-direction: column;
@@ -845,7 +849,6 @@ body {
     .item-rateds {
         margin-left: 20px;
         margin-right: 20px;  
-
     }
 
     .list-rated {
@@ -858,10 +861,6 @@ body {
     }
 
     .container-icon.container {
-        width: 100%;
-    }
-
-    .title-icon {
         width: 100%;
     }
 
@@ -912,10 +911,6 @@ body {
     .container-footer-last.container {
         width: 100%;
     }
-
-
-   
-
 }
 
 @media (max-width:767px) {
@@ -976,8 +971,8 @@ body {
     }
     
     .text-try {
-        font-size: 10px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     .section-process {
@@ -1001,8 +996,8 @@ body {
     
     .title-process {
         width: 100%;
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 38px;
         margin-bottom: 20px;
         text-align: center;
     }
@@ -1016,19 +1011,14 @@ body {
 
     .container-process {
         align-items: center;
-        width: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    .link-process {
-        font-size: 18px;
-        line-height: 22px;
-    }
-
     .subject-localise {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 38px;
         margin-bottom: 20px;
     }
 
@@ -1069,11 +1059,13 @@ body {
     .title-team {
         font-size: 20px;
         line-height: 25px;
+        margin-bottom: 15px;
     }
 
     .text-team {
         font-size: 16px;
         line-height: 20px;
+        width: 100%;
     }
 
     .image-team {
@@ -1081,7 +1073,12 @@ body {
     }
 
     .item-team {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .item-team:last-child {
+        margin-bottom: 0px;
     }
 
     .text-chief {
@@ -1094,11 +1091,6 @@ body {
     .text-chief-off {
         font-size: 13px;
         line-height: 16px;
-    }
-
-    .lin-img-logo-chif {
-        width: 80px;
-        height: 18px;
     }
 
     .link-imgs-chief {
@@ -1119,8 +1111,8 @@ body {
     }
 
     .title-manage {
-        font-size: 25px;
-        line-height: 32px;
+        font-size: 27px;
+        line-height: 34px;
         text-align: center;
     }
 
@@ -1161,8 +1153,8 @@ body {
     }
 
     .title-case {
-        font-size: 30px;
-        line-height: 38px;
+        font-size: 26px;
+        line-height: 33px;
     }
 
     .image-case {
@@ -1230,9 +1222,5 @@ body {
         font-size: 30px;
         line-height: 38px;
         width: 100%;
-    }
-
-
-
-    
+    }  
 }
